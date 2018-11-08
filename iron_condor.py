@@ -287,7 +287,7 @@ class IronCondorAlgorithm(QCAlgorithm):
         All algorithms must initialized.'''
 
         # make sure  the start and end dates are tradeable dates or an exception occurs
-        self.SetStartDate(2015, 10, 1)  # Set Start Date
+        self.SetStartDate(2015, 10, 5)  # Set Start Date
         self.SetEndDate(2015, 12, 31)  # Set End Date
         self.SetCash(100000)  # Set Strategy Cash
         self.InitPreWarmUp()
